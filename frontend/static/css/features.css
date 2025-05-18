@@ -1,0 +1,160 @@
+/* Features Button and Modal Styles */
+
+.features-btn {
+    position: fixed;
+    top: 24px;
+    right: 32px;
+    z-index: 1200;
+    background: #4a6fa5;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    box-shadow: 0 2px 8px rgba(74,111,165,0.15);
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+.features-btn:hover {
+    background: #166088;
+    box-shadow: 0 4px 16px rgba(74,111,165,0.25);
+}
+
+#features-modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(30, 60, 114, 0.25);
+    z-index: 1199;
+    display: none;
+}
+#features-modal-overlay.active {
+    display: block;
+}
+
+#features-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+    z-index: 1201;
+    width: 400px;
+    max-width: 95vw;
+    padding: 2.2rem 1.5rem 1.5rem 1.5rem;
+    display: none;
+    animation: fadeIn 0.3s;
+}
+#features-modal.active {
+    display: block;
+}
+#features-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+#features-modal-header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #1e3c72;
+}
+#features-modal-close {
+    background: none;
+    border: none;
+    color: #1e3c72;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#features-modal-tabs {
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1.2rem;
+}
+#features-modal-tabs button {
+    flex: 1;
+    padding: 0.8rem 0;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1e3c72;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border 0.2s;
+}
+#features-modal-tabs button.active {
+    border-bottom: 2px solid #1e3c72;
+    color: #2a5298;
+}
+#features-modal-content {
+    padding-top: 0.5rem;
+}
+
+/* Focus Retention Section */
+.focus-beats-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.focus-beats-item {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(74,111,165,0.07);
+}
+.focus-beats-item h4 {
+    margin: 0 0 0.5rem 0;
+    color: #166088;
+    font-size: 1.05rem;
+}
+.focus-beats-item p {
+    margin: 0 0 0.5rem 0;
+    color: #444;
+    font-size: 0.97rem;
+}
+
+/* Language Translator Section */
+.translator-section {
+    margin-top: 1.2rem;
+}
+.translator-label {
+    font-weight: 500;
+    color: #166088;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+.translator-input, .translator-output {
+    width: 100%;
+    min-height: 60px;
+    border: 1px solid #b0c4de;
+    border-radius: 8px;
+    padding: 0.7rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.translator-btn {
+    background: #4a6fa5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.translator-btn:hover {
+    background: #166088;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translate(-50%, -60%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+} 
