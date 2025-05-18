@@ -109,26 +109,105 @@ Content-Type: application/json
     }
 }
 ```
+# 🎓 AI4Edu- Advancing Quality Education through Intelligent Web Solutions
 
-## Features in Detail
+**AI4Edu** is an AI-powered educational web application designed to help students learn more effectively, stay focused, and manage their study routines. It combines intelligent tools like summarization, quiz generation, flashcards, progress tracking, and wellness support—all within a clean, distraction-free platform.
 
-1. **Intelligent Chat**
-   - Context-aware responses
-   - Educational focus
-   - Conversation history support
-   - Session management
+---
 
-2. **Document Processing**
-   - PDF support
-   - Word document support
-   - PowerPoint support
-   - Text extraction and analysis
+## 🚀 Features
 
-3. **Learning Tools**
-   - Quiz generation
-   - Flashcard creation
-   - Key concept extraction
-   - Summary generation
+- 🧠 **Smart Study Assistant**  
+  AI-powered content summarization, flashcard & quiz generation, and instant doubt-solving to make learning easier and more efficient.
+
+- 📊 **Study Tracker & Focus Mode**  
+  Visual dashboards to track study time, topics covered, and quiz performance, along with a distraction-free mode during quizzes.
+
+- 💬 **Wellness & Productivity Support**  
+  EduBot chatbot offers guidance on focus, stress, healthy habits, and daily/weekly task tracking.
+
+- 🌐 **Text Translation**  
+  Translate summarized content into preferred languages for better accessibility.
+
+- 🎧 **Binaural Beats Integration**  
+  Boost concentration and reduce stress during study sessions.
+
+---
+
+## 🏗️ Technical Stack
+
+### 🔹 Frontend
+- HTML5, CSS3, JavaScript (Vanilla)
+- Responsive Design: Flexbox, Grid, Media Queries
+- UI Enhancements: Font Awesome, Google Fonts
+- Visualization: Chart.js
+- Browser APIs: LocalStorage, DOM API, Fullscreen API
+
+### 🔹 Backend
+- Flask (Python)
+- RESTful API architecture
+- CORS support for frontend-backend communication
+- Base64 Encoding & MIME Type Validation for file handling
+
+### 🔹 NLP & AI Modules
+- **NLTK**: Sentence Tokenization, POS Tagging, Stopword Removal
+- **SpaCy**: Dependency Parsing, Noun Chunk Extraction
+- **WordNet**: Semantic Relationships
+- **Custom Algorithms**: MCQ & Flashcard generation, keyword extraction
+
+---
+
+## ⚙️ Core Functionalities
+
+- 🔹 **Summary Generator**: AI summarizes long study materials.
+- 🔹 **Quiz Generator**: Creates multiple-choice quizzes from content.
+- 🔹 **Flashcard Generator**: Auto-generates revision flashcards.
+- 🔹 **Instant Doubt Solver**: Answers questions from uploaded content.
+- 🔹 **Task Tracker**: Add, manage, and mark study goals.
+- 🔹 **Study Dashboard**: Visual progress tracking via charts and logs.
+
+---
+
+## 📸 Screenshots
+
+- **Home Page**: Clean UI introducing features and entry point.
+- **Summary & Key Concepts**: Extracts and displays core points from content.
+- **Personal Study Goals**: Add/manage daily & weekly targets.
+- **EduBot**: AI chatbot for wellness and productivity tips.
+- **Quiz Generator**: Interactive MCQ-based testing.
+- **Dashboard**: Graphs and stats to track progress and engagement.
+
+---
+
+## 🔮 Future Enhancements
+
+- 🎤 Voice Input/Output for hands-free learning
+- 🌍 Full multilingual support
+- 📱 Mobile app version
+- 🧠 Adaptive study path recommendations
+
+---
+
+## 📌 Scope
+
+AI4Edu aims to support self-paced learning by simplifying complex content, promoting consistent study habits, and addressing mental wellness. The platform integrates AI and NLP to provide a complete, personalized learning assistant—designed for learners from all backgrounds.
+
+---
+
+## 🤝 Team
+
+**Team Enlighten**  
+A passionate group of developers, designers, and AI enthusiasts committed to transforming education through technology.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+
 
 ## Security Notes
 
