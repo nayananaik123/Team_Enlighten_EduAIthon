@@ -197,16 +197,7 @@ AI4Edu aims to support self-paced learning by simplifying complex content, promo
 ## 🤝 Team
 
 **Team Enlighten**  
-A passionate group of developers, designers, and AI enthusiasts committed to transforming education through technology.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
+A passionate group of developers, designers, and AI enthusiasts committed to transforming education through technology
 
 
 ## Security Notes
